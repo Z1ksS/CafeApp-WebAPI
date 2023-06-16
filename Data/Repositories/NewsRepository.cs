@@ -9,6 +9,7 @@ namespace CafeApp.Data.Repositories
     {
         private readonly AppDbContext appDbContext;
 
+        //implementation
         public NewsRepository(AppDbContext appDbContext)
         {
             this.appDbContext = appDbContext;
